@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "871908211146",
+    "firebase_url": "https://in-palm-b7f59.firebaseio.com",
+    "project_id": "in-palm-b7f59",
+    "storage_bucket": "in-palm-b7f59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871908211146:android:8186dc52b7d192e737f733",
+        "android_client_info": {
+          "package_name": "com.diegoprado.inpalm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871908211146-bpq907b9b4otio3u1gg2q8gaunaaiqcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diegoprado.inpalm",
+            "certificate_hash": "3629f19464f30d1a7542a23c610ff454ba56acca"
+          }
+        },
+        {
+          "client_id": "871908211146-cf2tm1uj6mvse0fsa9do4mfomkp5hqbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeI9D1DLFD2FZqvqgOu1pUB47M3Rihvvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871908211146-cf2tm1uj6mvse0fsa9do4mfomkp5hqbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

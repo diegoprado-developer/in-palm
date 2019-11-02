@@ -1,6 +1,10 @@
 package com.diegoprado.inpalm
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
+import com.diegoprado.inpalm.activity.CadastroActivity
+import com.diegoprado.inpalm.activity.LoginActivity
 import com.heinrichreimersoftware.materialintro.app.IntroActivity
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide
 
@@ -10,12 +14,12 @@ class MainActivity : IntroActivity() {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
 
-        isButtonBackVisible.not()
-        isButtonNextVisible.not()
+        isButtonBackVisible = false
+        isButtonNextVisible = false
 
         addSlide(
             FragmentSlide.Builder()
-            .background(android.R.color.holo_orange_dark)
+            .background(android.R.color.white)
             .fragment(R.layout.slider_1)
             .build()
         )
@@ -41,5 +45,21 @@ class MainActivity : IntroActivity() {
                 .build()
         )
 
+        addSlide(
+            FragmentSlide.Builder()
+                .background(android.R.color.white)
+                .fragment(R.layout.slider_intro_cadastro)
+                .canGoForward(false)
+                .build()
+        )
+
+    }
+
+    fun btnEntrar(view: View){
+        startActivity(Intent(this, LoginActivity::class.java))
+    }
+
+    fun newCadastro(view: View){
+        startActivity(Intent(this, CadastroActivity::class.java))
     }
 }

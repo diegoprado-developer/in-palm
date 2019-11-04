@@ -54,8 +54,8 @@
 30-->/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:13:19-57
 31        <activity
 31-->/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:14:9-22:20
-32            android:name="com.diegoprado.inpalm.MainActivity"
-32-->/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:15:13-41
+32            android:name="com.diegoprado.inpalm.activity.MainActivity"
+32-->/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:15:13-50
 33            android:theme="@style/Theme.Intro" >
 33-->/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:16:13-47
 34            <intent-filter>

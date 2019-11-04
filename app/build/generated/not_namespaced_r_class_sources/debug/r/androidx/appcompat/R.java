@@ -717,7 +717,7 @@ public final class R {
         public static final int decor_content_parent = 0x7f070054;
         public static final int default_activity_button = 0x7f070055;
         public static final int dialog_button = 0x7f070056;
-        public static final int edit_query = 0x7f07005f;
+        public static final int edit_query = 0x7f07005c;
         public static final int expand_activities_button = 0x7f070061;
         public static final int expanded_menu = 0x7f070062;
         public static final int forever = 0x7f070063;

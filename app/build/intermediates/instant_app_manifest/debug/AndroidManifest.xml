@@ -30,7 +30,7 @@
         <activity android:name="com.diegoprado.inpalm.activity.CadastroActivity" />
         <activity android:name="com.diegoprado.inpalm.activity.LoginActivity" />
         <activity
-            android:name="com.diegoprado.inpalm.MainActivity"
+            android:name="com.diegoprado.inpalm.activity.MainActivity"
             android:theme="@style/Theme.Intro" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

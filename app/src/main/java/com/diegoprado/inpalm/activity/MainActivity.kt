@@ -1,10 +1,9 @@
-package com.diegoprado.inpalm
+package com.diegoprado.inpalm.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import com.diegoprado.inpalm.activity.CadastroActivity
-import com.diegoprado.inpalm.activity.LoginActivity
+import com.diegoprado.inpalm.R
 import com.heinrichreimersoftware.materialintro.app.IntroActivity
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide
 

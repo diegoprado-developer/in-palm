@@ -138,12 +138,12 @@ activity#com.diegoprado.inpalm.activity.LoginActivity
 ADDED from /Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:13:9-60
 	android:name
 		ADDED from /Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:13:19-57
-activity#com.diegoprado.inpalm.MainActivity
+activity#com.diegoprado.inpalm.activity.MainActivity
 ADDED from /Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:14:9-22:20
 	android:theme
 		ADDED from /Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:16:13-47
 	android:name
-		ADDED from /Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:15:13-41
+		ADDED from /Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:15:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN

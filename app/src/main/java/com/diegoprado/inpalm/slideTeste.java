@@ -2,6 +2,7 @@ package com.diegoprado.inpalm;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -40,5 +41,6 @@ public class slideTeste extends IntroActivity {
                     }
                 });
     }
+
 
 }

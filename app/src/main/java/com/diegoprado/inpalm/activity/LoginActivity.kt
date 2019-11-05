@@ -1,5 +1,6 @@
 package com.diegoprado.inpalm.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -61,7 +62,8 @@ class LoginActivity : AppCompatActivity() {
             usuario!!.senha.toString()
         ).addOnCompleteListener(this){ task ->
             if (task.isSuccessful){
-                Toast.makeText(this@LoginActivity, "sucesso ao entrar", Toast.LENGTH_LONG).show()
+
+                abrirPrincipal()
 
             }else{
 
@@ -81,5 +83,10 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this@LoginActivity,  excecao, Toast.LENGTH_LONG).show()
             }
         }
+    }
+
+    fun abrirPrincipal(){
+        startActivity(Intent(this, PrincipalActivity::class.java))
+        finish()
     }
 }

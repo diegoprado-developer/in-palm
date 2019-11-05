@@ -4,6 +4,23 @@
             "outputFile": "/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
+                    "source": "/Users/macbook-pro/.gradle/caches/transforms-2/files-2.1/86f0106df4e02c6e19eeadbbeded03c4/material-1.0.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "752,874",
+                        "endColumns": "121,133",
+                        "endOffsets": "869,1003"
+                    }
+                },
+                {
                     "source": "/Users/macbook-pro/.gradle/caches/transforms-2/files-2.1/a58f655ff4691d6ffebb2706ae10f33c/appcompat-1.1.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",

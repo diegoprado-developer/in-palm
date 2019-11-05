@@ -75,6 +75,7 @@ class CadastroActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     Toast.makeText(this@CadastroActivity, "Usuario cadastrado com sucesso", Toast.LENGTH_LONG)
                         .show()
+                    finish()
                 } else {
                     var excecao: String = ""
 

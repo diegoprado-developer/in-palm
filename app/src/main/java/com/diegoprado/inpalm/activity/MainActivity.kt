@@ -74,7 +74,7 @@ class MainActivity : IntroActivity() {
     fun verificarUsuarioLogado(){
 
         autenticacao = ConfiguracaoFirebase.firebasebaseAutenticacao!!
-
+//        autenticacao.signOut()
         if(autenticacao.currentUser != null){
            abrirPrincipal()
         }

@@ -2,12 +2,14 @@ package com.diegoprado.inpalm;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.util.Base64;
 import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.diegoprado.inpalm.helper.Base64Custom;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -41,6 +43,15 @@ public class slideTeste extends IntroActivity {
                     }
                 });
     }
+
+//    public static String codificarBase64(String texto){
+//        return Base64.encodeToString(texto.getBytes(), Base64.DEFAULT).replaceAll("(\\n|\\r)", "");
+//    }
+//
+//    public static String decodificarBase64(String textoDecodificado){
+//        return new String(Base64.decode(textoDecodificado, Base64.DEFAULT));
+//
+//    }
 
 
 }

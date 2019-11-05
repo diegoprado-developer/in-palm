@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.Toast
 import com.diegoprado.inpalm.R
 import com.diegoprado.inpalm.config.ConfiguracaoFirebase
+import com.diegoprado.inpalm.helper.Base64Custom
 import com.diegoprado.inpalm.model.Usuario
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.FirebaseAuth
@@ -75,6 +76,12 @@ class CadastroActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     Toast.makeText(this@CadastroActivity, "Usuario cadastrado com sucesso", Toast.LENGTH_LONG)
                         .show()
+
+                    val idUsuario: String = Base64Custom.codificarBase64( usuario!!.email.toString())
+
+                    usuario!!.idUsuario = idUsuario
+                    usuario!!.salvarUser()
+
                     finish()
                 } else {
                     var excecao: String = ""

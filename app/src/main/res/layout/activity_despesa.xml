@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/edtValorDespesa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -49,6 +49,7 @@
         app:layout_constraintVertical_chainStyle="packed">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtDataDespesa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="ex: 05/10/2019" />
@@ -68,6 +69,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCategoriaDespesa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="ex: salario" />
@@ -87,13 +89,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtDescricaoDespesa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="ex: salario mensal" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/addFlotingDespesa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"

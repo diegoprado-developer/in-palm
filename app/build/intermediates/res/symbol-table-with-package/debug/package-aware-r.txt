@@ -1274,6 +1274,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addFlotingDespesa
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1318,11 +1319,14 @@ id dimensions
 id direct
 id disableHome
 id down
-id editText
 id edit_query
+id edtCategoriaDespesa
+id edtDataDespesa
+id edtDescricaoDespesa
 id edtEmail
 id edtNome
 id edtSenha
+id edtValorDespesa
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1335,7 +1339,6 @@ id fill_horizontal
 id fill_vertical
 id filled
 id fixed
-id floatingActionButton
 id forever
 id ghost_view
 id gone

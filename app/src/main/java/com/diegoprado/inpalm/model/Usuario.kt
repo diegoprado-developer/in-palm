@@ -19,7 +19,7 @@ class Usuario {
     fun salvarUser(){
         var firebase: DatabaseReference = ConfiguracaoFirebase.getFirebaseDatabase!!
 
-        firebase.child(" usuarios")
+        firebase.child("usuarios")
             .child(this.idUsuario!!)
             .setValue(this)
     }

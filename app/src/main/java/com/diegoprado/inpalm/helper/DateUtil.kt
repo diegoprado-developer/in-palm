@@ -17,6 +17,18 @@ class DateUtil {
             return dataString
         }
 
+
+    fun mesAnoDataEscolhida(data: String): String {
+            var retornoData= data?.split("/").toTypedArray()
+            var dia = retornoData[0]
+            var mes = retornoData[1]
+            var ano = retornoData[2]
+
+            val mesAno = mes + ano
+
+            return mesAno
+        }
+
 //    fun dataAtual(): String {
 //
 //        var date: Long = System.currentTimeMillis()

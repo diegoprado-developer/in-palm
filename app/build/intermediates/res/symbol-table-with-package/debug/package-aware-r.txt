@@ -1327,6 +1327,7 @@ id edtEmail
 id edtNome
 id edtSenha
 id edtValorDespesa
+id edtValorReceita
 id end
 id enterAlways
 id enterAlwaysCollapsed

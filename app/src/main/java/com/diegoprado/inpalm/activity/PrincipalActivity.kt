@@ -2,6 +2,7 @@ package com.diegoprado.inpalm.activity
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -33,23 +34,24 @@ class PrincipalActivity : AppCompatActivity() {
 
     var authFirebase: FirebaseAuth? = ConfiguracaoFirebase.firebasebaseAutenticacao!!
     var firebaseRef: DatabaseReference = ConfiguracaoFirebase.getFirebaseDatabase!!
+    private var usuarioRef: DatabaseReference? = null
+    private lateinit var valueEventListenerUsuario: ValueEventListener
 
     var despesaTotal = 0.0
     var receitaTotal = 0.0
     var resumoUsuario = 0.0
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_principal)
         setSupportActionBar(toolbar)
+        toolbar.title = "InPalm"
 
         textoSaldo = findViewById(R.id.txtSaldo)
         textoSaudacao = findViewById(R.id.txtSaudacao)
         calendarView = findViewById(R.id.calendarView)
 
         configuraCalendarView()
-        recuperarResumo()
 
 //        menu_despesa.setOnClickListener { view ->
 //            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
@@ -57,13 +59,20 @@ class PrincipalActivity : AppCompatActivity() {
 //        }
     }
 
+    override fun onStart() {
+        super.onStart()
+
+        recuperarResumo()
+    }
+
     fun recuperarResumo(){
 
         var emailUsuario = authFirebase?.currentUser!!.email
         var idUsuario = Base64Custom.codificarBase64(emailUsuario.toString())
-        var usuarioRef: DatabaseReference = firebaseRef.child("usuarios").child(idUsuario)
+        usuarioRef = firebaseRef.child("usuarios").child(idUsuario)
 
-        usuarioRef.addValueEventListener(object: ValueEventListener {
+        Log.i("onStop", "evento listenerUsuario foi adicionado")
+        valueEventListenerUsuario = usuarioRef!!.addValueEventListener(object: ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 val usuario: Usuario = dataSnapshot.getValue(Usuario::class.java!!)!!
 
@@ -142,6 +151,12 @@ class PrincipalActivity : AppCompatActivity() {
 
             }
         })
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.i("onStop", "evento listenerUsuario foi removido")
+        usuarioRef!!.removeEventListener(valueEventListenerUsuario)
     }
 
 }

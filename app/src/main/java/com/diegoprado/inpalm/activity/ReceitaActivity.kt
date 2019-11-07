@@ -40,8 +40,6 @@ class ReceitaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_receita)
 
-        supportActionBar?.title ="InPalm"
-
         campoData = findViewById(R.id.edtDataReceita)
         campoCategoria = findViewById(R.id.edtCategoriaReceita)
         campoDescricao = findViewById(R.id.edtDescricaoReceita)
@@ -83,7 +81,6 @@ class ReceitaActivity : AppCompatActivity() {
         var receitaAtualizada: Double = receitaTotal + valorRecuperado
 
         atualizarReceita(receitaAtualizada)
-
 
         movimentacao!!.salvarMovimentacao(data)
 

@@ -1,4 +1,4 @@
-#Wed Nov 06 11:06:20 BRST 2019
+#Thu Nov 07 10:39:11 BRST 2019
 base.0=/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

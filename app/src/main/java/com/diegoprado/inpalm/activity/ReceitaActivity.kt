@@ -40,6 +40,8 @@ class ReceitaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_receita)
 
+        supportActionBar?.title ="InPalm"
+
         campoData = findViewById(R.id.edtDataReceita)
         campoCategoria = findViewById(R.id.edtCategoriaReceita)
         campoDescricao = findViewById(R.id.edtDescricaoReceita)
@@ -84,6 +86,8 @@ class ReceitaActivity : AppCompatActivity() {
 
 
         movimentacao!!.salvarMovimentacao(data)
+
+        finish()
 
     }
 

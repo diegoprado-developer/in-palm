@@ -1396,6 +1396,10 @@
         "source": "/Users/macbook-pro/.gradle/caches/transforms-2/files-2.1/a58f655ff4691d6ffebb2706ae10f33c/appcompat-1.1.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/build/intermediates/res/merged/debug/menu_menu_principal.xml.flat",
+        "source": "/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/src/main/res/menu/menu_principal.xml"
+    },
+    {
         "merged": "/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_cadeado_cinza_24dp.xml.flat",
         "source": "/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_cadeado_cinza_24dp.xml"
     },

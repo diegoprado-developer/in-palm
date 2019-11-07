@@ -72,7 +72,7 @@ class LoginActivity : AppCompatActivity() {
                 try {
                     throw task.exception!!
                 }catch (e: FirebaseAuthInvalidUserException){
-                    excecao = "Digite uma senha mais forte"
+                    excecao = "Usuario não cadastrado"
                 }catch (e: FirebaseAuthInvalidCredentialsException){
                     excecao = "E-mail ou senha incorreto"
                 }catch (e: Exception){

@@ -27,6 +27,8 @@ class CadastroActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cadastro)
 
+        supportActionBar?.title ="Cadastro"
+
         val edtNome = findViewById<EditText>(R.id.edtNome)
         val edtEmail = findViewById<EditText>(R.id.edtEmail)
         val edtSenha = findViewById<EditText>(R.id.edtSenha)

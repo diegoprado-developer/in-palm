@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/macbook-pro/Documents/AndroidStudioProjects/InPalm/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi-rVN/values-vi-rVN.xml",
+            "map": [
+                {
+                    "source": "/Users/macbook-pro/.gradle/caches/transforms-2/files-2.1/0570272ae0ec037c9348f119cb17c9db/material-intro-2.0.0/res/values-vi-rVN/values-vi-rVN.xml",
+                    "from": {
+                        "startLines": "2,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,229,293,358,439,502",
+                        "endLines": "5,6,7,8,9,10",
+                        "endColumns": "14,63,64,80,62,55",
+                        "endOffsets": "224,288,353,434,497,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

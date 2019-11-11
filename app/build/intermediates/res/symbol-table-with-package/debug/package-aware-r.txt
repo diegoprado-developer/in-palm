@@ -1414,6 +1414,7 @@ id match_parent
 id mcv_pager
 id media_actions
 id menu
+id menuSair
 id menu_despesa
 id menu_receita
 id message
@@ -1461,6 +1462,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id range
+id recycleMovimentos
 id right
 id right_icon
 id right_side
@@ -1521,6 +1523,9 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id text
 id text2
+id textAdapterCategoria
+id textAdapterTitulo
+id textAdapterValor
 id textInputLayout
 id textInputLayout2
 id textInputLayout3
@@ -1554,9 +1559,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id tuesday
-id txtNome
+id txtSaldo
 id txtSaldoGeral
-id txtValor
+id txtSaudacao
 id unchecked
 id uniform
 id unlabeled
@@ -1630,6 +1635,7 @@ layout activity_cadastro
 layout activity_despesa
 layout activity_login
 layout activity_main
+layout activity_movimentacao
 layout activity_principal
 layout activity_receita
 layout calendar_view
@@ -1678,6 +1684,7 @@ layout slider_3
 layout slider_4
 layout slider_intro_cadastro
 layout support_simple_spinner_dropdown_item
+menu menu_principal
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mi_label_grant_permission

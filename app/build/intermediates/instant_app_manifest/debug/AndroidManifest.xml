@@ -27,6 +27,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.diegoprado.inpalm.AdatperMovimentacao" />
         <activity
             android:name="com.diegoprado.inpalm.activity.DespesaActivity"
             android:theme="@style/despesaTheme" />

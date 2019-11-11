@@ -82,8 +82,9 @@ class ReceitaActivity : AppCompatActivity() {
 
         atualizarReceita(receitaAtualizada)
 
-
         movimentacao!!.salvarMovimentacao(data)
+
+        finish()
 
     }
 

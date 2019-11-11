@@ -87,6 +87,8 @@ class DespesaActivity : AppCompatActivity() {
 
         movimentacao!!.salvarMovimentacao(data)
 
+        finish()
+
     }
 
     fun validarCamposDespesa(): Boolean{

@@ -108,7 +108,7 @@ public final class R {
         public static final int normal = 0x7f0800c5;
         public static final int right = 0x7f0800db;
         public static final int start = 0x7f080106;
-        public static final int up = 0x7f08013e;
+        public static final int up = 0x7f080141;
     }
     public static final class styleable {
         private styleable() {}

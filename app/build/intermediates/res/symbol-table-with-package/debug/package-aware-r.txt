@@ -1523,6 +1523,9 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id text
 id text2
+id textAdapterCategoria
+id textAdapterTitulo
+id textAdapterValor
 id textInputLayout
 id textInputLayout2
 id textInputLayout3
@@ -1632,6 +1635,7 @@ layout activity_cadastro
 layout activity_despesa
 layout activity_login
 layout activity_main
+layout activity_movimentacao
 layout activity_principal
 layout activity_receita
 layout calendar_view

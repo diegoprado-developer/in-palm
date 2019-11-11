@@ -70,7 +70,7 @@ public final class R {
         public static final int light = 0x7f08009e;
         public static final int none = 0x7f0800c4;
         public static final int standard = 0x7f080105;
-        public static final int wide = 0x7f080145;
+        public static final int wide = 0x7f080148;
     }
     public static final class string {
         private string() {}

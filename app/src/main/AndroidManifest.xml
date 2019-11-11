@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.DespesaActivity"
-            android:theme="@style/despesaTheme"></activity>
-        <activity android:name=".activity.ReceitaActivity"
-            android:theme="@style/receitasTheme"/>
+        <activity android:name=".AdatperMovimentacao"></activity>
+        <activity
+            android:name=".activity.DespesaActivity"
+            android:theme="@style/despesaTheme" />
+        <activity
+            android:name=".activity.ReceitaActivity"
+            android:theme="@style/receitasTheme" />
         <activity
             android:name=".activity.PrincipalActivity"
             android:label="@string/title_activity_principal"

@@ -13,6 +13,7 @@ class Movimentacao {
     var descricao: String? = null
     var tipo: String? = null
     var valor: Double? = null
+    var key: String? = null
 
     fun salvarMovimentacao(data: String){
 
